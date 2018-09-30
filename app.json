@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/progress/progress",
+    "pages/view/view",
+    "pages/memberCenter/memberCenter",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乱世游侠",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "top",
+    "color": "#f30",
+    "selectedColor": "#f30",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/view/view",
+        "text": "组件学习"
+      },
+      {
+        "pagePath": "pages/progress/progress",
+        "text": "进度条"
+      },
+      {
+        "pagePath": "pages/memberCenter/memberCenter",
+        "text": "个人中心"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

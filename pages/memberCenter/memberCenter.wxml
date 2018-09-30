@@ -1,0 +1,6 @@
+<!--pages/memberCenter/memberCenter.wxml-->
+<view>
+<text>个人中心页面</text>
+<map class='map' bindmarkertap="markertap" longitude="112.5784483174" latitude="26.8994600367"></map>
+</view>
+

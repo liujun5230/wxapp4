@@ -1,0 +1,13 @@
+<view class="body">
+
+<view class='testdiv' style='position:relative;bottom:-15px'>小</view>
+<view>
+<view class='testdiv'>程</view>
+<view class='testdiv'>序</view>
+</view>
+
+<progress percent="20" show-info active style="margin-top:100px"/>
+<progress percent="40" stroke-width="12"  active/>
+<progress percent="60" color="pink" />
+<progress percent="80" active active-mode="forwards"/>
+</view>
